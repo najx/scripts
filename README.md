@@ -12,4 +12,6 @@ C:.
 
 🤔 Needs help with one of the Powershell script in `src/pwsh` ?
 
-Just type the following to get more infos `Get-Help .\<SCRIPT_NAME> -full` ex: `Get-Help .\Compress-Folders.ps1 -full`
+Before your prompt just type the following command to get more information about how to execute the script: `Get-Help .\<SCRIPT_NAME> -full`
+
+Example: `Get-Help .\Compress-Folders.ps1 -full`
