@@ -17,7 +17,7 @@ PARAM (
   [string]$destination
 )
 
-$directories_to_compress = Get-ChildItem -Path $source;
+$directoriesToCompress = Get-ChildItem -Path $source;
 
 # Check if the destination folder exists otherwise it's created..
 if (!(test-path -Path $destination)) {
@@ -25,7 +25,7 @@ if (!(test-path -Path $destination)) {
 }
 
 # In the $destination directory, the script will generate an archive for all the items found in $source folder
-foreach ($_ in $directories_to_compress) {
+foreach ($_ in $directoriesToCompress) {
   Write-Host $_.name -ForegroundColor Green;
   $compress = @{
     Path = $_ # "c:/xyz/abc"
