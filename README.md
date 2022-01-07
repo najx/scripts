@@ -11,6 +11,7 @@ C:.
 # Powershell scripts
 
 - [Compress-Folders.ps1](https://github.com/najx/scripts/blob/master/src/pwsh/Compress-Folders.ps1)
+- [Convert-LowerCase.ps1](https://github.com/najx/scripts/blob/master/src/pwsh/Convert-LowerCase.ps1)
 
 🤔 Needs help with one of the Powershell script in `src/pwsh` ?
 
