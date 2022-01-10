@@ -5,7 +5,8 @@
 ````
 C:.
 └───src
-    └───pwsh
+    ├───pwsh
+    └───sql
 ````
 
 # Powershell scripts
@@ -18,3 +19,7 @@ C:.
 Before your prompt just type the following command to get more information about how to execute the script: `Get-Help .\<SCRIPT_NAME> -full`
 
 Example: `Get-Help .\Compress-Folders.ps1 -full`
+
+# SQL script
+
+- [grant-users-sql-db-instance.sql](https://github.com/najx/scripts/blob/master/src/sql/grant-users-sql-db-instance.sql)
