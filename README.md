@@ -22,4 +22,5 @@ Example: `Get-Help .\Compress-Folders.ps1 -full`
 
 # SQL script
 
+- [check-db-reader-writer-sql-db-instance.sql](https://github.com/najx/scripts/blob/master/src/sql/check-db-reader-writer-sql-db-instance.sql)
 - [grant-users-sql-db-instance.sql](https://github.com/najx/scripts/blob/master/src/sql/grant-users-sql-db-instance.sql)
