@@ -24,5 +24,5 @@ parse_yaml() {
    }'
 }
 
-# eval $(parse_yaml config.yml "config_")
-# echo $config_name
+# eval $(parse_yaml config.yml "config_") # Instanciate function parse_yaml with file config.yml and param config_
+# echo $config_name                       # Will display value of name (ABD)
