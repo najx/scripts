@@ -3,11 +3,15 @@
 📚 This library contains some of my useful &amp; daily used scripts
 
 ````
-C:.
-└───src
-    ├───pwsh
-    └───sql
+.
+└── src
+    ├── bash
+    ├── pwsh
+    └── sql
 ````
+# Bash scripts
+
+- [parse_yaml.sh](https://github.com/najx/scripts/blob/master/src/bash/parse_yaml.sh)
 
 # Powershell scripts
 
@@ -21,7 +25,7 @@ Before your prompt just type the following command to get more information about
 
 Example: `Get-Help .\Compress-Folders.ps1 -full`
 
-# SQL script
+# SQL scripts
 
 - [check-db-reader-writer-sql-db-instance.sql](https://github.com/najx/scripts/blob/master/src/sql/check-db-reader-writer-sql-db-instance.sql)
 - [grant-users-sql-db-instance.sql](https://github.com/najx/scripts/blob/master/src/sql/grant-users-sql-db-instance.sql)
