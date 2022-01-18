@@ -11,6 +11,7 @@
 ````
 # Bash scripts
 
+- [git_pull.sh](https://github.com/najx/scripts/blob/master/src/bash/git_pull.sh)
 - [parse_yaml.sh](https://github.com/najx/scripts/blob/master/src/bash/parse_yaml.sh)
 
 🤔 Want to execute a script from `src/bash` ?
