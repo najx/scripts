@@ -9,7 +9,7 @@ reset="\x1b[0m"
 
 x=$1
 
-displayIssue() {
+display() {
   case "$issue" in
     "1")
       echo -e "  ${red}One parameter must be specified with this script and must be an existing path${reset}"
@@ -31,19 +31,19 @@ displayIssue() {
 echo
 if [ -z $1 ] || ! [ -z $2 ]; then
   issue=1
-  displayIssue issue
+  display issue
   exit 2
 fi
 
 if ! [ -a $1 ]; then
   issue=2
-  displayIssue issue
+  display issue
   exit 2
 fi
 
 if [ "${x:${#x}-1}" == "/" ]; then
   issue=3
-  displayIssue issue
+  display issue
   exit 2
 fi
 
