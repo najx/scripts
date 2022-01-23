@@ -61,10 +61,15 @@ for file in `ls $1`; do
       echo -e "${green}[/]${reset} -> $REPO"
       git -C $REPO checkout master
       git -C $REPO pull
+      echo
     else
+      echo
       echo -e "${yellow}[X] $REPO isn't a Git repository...${reset}"
+      echo
     fi
   else
+    echo
     echo -e "${yellow}[X] $REPO isn't a directory...${reset}"
+    echo
   fi
 done
