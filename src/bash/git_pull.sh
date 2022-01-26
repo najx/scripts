@@ -7,6 +7,7 @@ green="\x1b[32m"
 yellow="\x1b[33m"
 reset="\x1b[0m"
 
+start_time=$(date +%s)
 x=$1
 
 display() {
@@ -73,3 +74,7 @@ for file in `ls $1`; do
     echo
   fi
 done
+
+end_time=$(date +%s)
+echo
+echo "Time elapsed: $(($end_time - $start_time)) seconds"
