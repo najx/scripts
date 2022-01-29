@@ -2,7 +2,8 @@
 # The output can either be sent to stdout or to a specified file
 
 # To Run It :
-# python json2yaml.py input_file.json output_file.yaml
+# python json2yaml.py input_file.json output_file.yaml > output is the specified `output_file.yaml` file
+# python json2yaml.py input_file.json > output is sent to stdout
 
 import json
 import os
