@@ -1,8 +1,9 @@
 # This script converts a file from YAML to JSON.
 # The output can either be sent to stdout or to a specified file.
 
-# To run it:
-# yaml2json.py input_file.yaml output_file.json
+# To Run It :
+# python yaml2json.py input_file.yaml output_file.json > output is the specified `output_file.yaml` file
+# python yaml2json.py input_file.yaml > output is sent to stdout
 
 import json
 import os
