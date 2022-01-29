@@ -32,6 +32,11 @@ Before your prompt just type the following command to get more information about
 
 Example: `Get-Help .\Compress-Folders.ps1 -full`
 
+# Python scripts
+
+- [convert-json-to-yaml.py](https://github.com/najx/scripts/blob/master/src/python/convert-json-to-yaml.py)
+- [convert-yaml-to-json.py](https://github.com/najx/scripts/blob/master/src/python/convert-yaml-to-json.py)
+
 # SQL scripts
 
 - [check-db-reader-writer-sql-db-instance.sql](https://github.com/najx/scripts/blob/master/src/sql/check-db-reader-writer-sql-db-instance.sql)
