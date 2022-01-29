@@ -4,10 +4,12 @@
 
 ````
 .
-└── src
-    ├── bash
-    ├── pwsh
-    └── sql
+├───.config
+└───src
+    ├───bash
+    ├───pwsh
+    ├───python
+    └───sql
 ````
 # Bash scripts
 
