@@ -38,6 +38,7 @@ Example: `Get-Help .\Compress-Folders.ps1 -full`
 
 - [convert-json-to-yaml.py](https://github.com/najx/scripts/blob/master/src/python/convert-json-to-yaml.py)
 - [convert-yaml-to-json.py](https://github.com/najx/scripts/blob/master/src/python/convert-yaml-to-json.py)
+- [fileman.py](https://github.com/najx/scripts/blob/master/src/python/fileman.py) _in progress_ 
 
 # SQL scripts
 
