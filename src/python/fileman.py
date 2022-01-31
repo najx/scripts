@@ -1,3 +1,11 @@
+# This script allow you to automate repetitive tasks like,
+#   bulk create directories
+#   bulk create files
+#   count files & directories of a specified system path
+#   search a file from a specified path recursively
+
+# Next version of with script will comes soon...
+
 import os
 import time
 from pathlib import Path
