@@ -1,10 +1,10 @@
-# This script allow you to automate repetitive tasks like,
-#   bulk create directories
-#   bulk create files
-#   count files & directories of a specified system path
+# This script allow you to automate repetitive tasks
+#   creating directories in bulk
+#   creating files in bulk
+#   return count of files & directories of a specified path
 #   search a file from a specified path recursively
 
-# Next version of with script will comes soon...
+# Next version of this script is coming soon...
 
 import os
 import time
