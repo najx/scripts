@@ -1,7 +1,7 @@
 # This script allow you to automate repetitive tasks like
 #   creating directories in bulk
 #   creating files in bulk
-#   return count of files & directories of a specified path
+#   return number of files & directories from a specified path recursively
 #   search a file from a specified path recursively
 
 # Next version of this script is coming soon...
