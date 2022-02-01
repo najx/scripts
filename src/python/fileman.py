@@ -1,4 +1,4 @@
-# This script allow you to automate repetitive tasks
+# This script allow you to automate repetitive tasks like
 #   creating directories in bulk
 #   creating files in bulk
 #   return count of files & directories of a specified path
