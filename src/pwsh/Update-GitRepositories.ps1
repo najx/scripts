@@ -12,7 +12,8 @@
 #>
 
 param (
-  [string]$path
+  [string]$path,
+  [string]$exclude
 )
 
 if ($path) {
@@ -20,12 +21,18 @@ if ($path) {
   foreach ($repository in $repositoriesToPull) {
     $fileToCheck = Join-Path -Path $repository -ChildPath "\.git";
     if (Test-Path -Path $fileToCheck) {
-      Write-Host "Pulling this repository --> $repository" -ForegroundColor Magenta;
-      git -C $repository checkout master;
-      git -C $repository branch;
-      git -C $repository pull;
+      $excludedRepo = Split-Path -Path $repository -Leaf;
+      if ($exclude -eq $excludedRepo) {
+        Write-Host "Repository ($repository)-excluded ... " -ForegroundColor Cyan;
+      } else {
+        Write-Host "Repository ($repository) is updating ..." -ForegroundColor Green;
+        git -C $repository branch;
+        git -C $repository checkout dev;
+        git -C $repository pull;
+        git -C $repository branch;
+      }
     } else {
-      Write-Host "  $repository is not a git repository..." -ForegroundColor DarkGray;
+      Write-Host "Repository ($repository) isn't a valid git repository..." -ForegroundColor DarkGray;
     }
   }
 } else {
