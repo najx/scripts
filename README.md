@@ -26,6 +26,7 @@ Don't forget to make it executable by typing the following command:
 
 - [Compress-Folders.ps1](https://github.com/najx/scripts/blob/master/src/pwsh/Compress-Folders.ps1)
 - [Convert-LowerCase.ps1](https://github.com/najx/scripts/blob/master/src/pwsh/Convert-LowerCase.ps1)
+- [Get-HelmPackageACR.ps1](https://github.com/najx/scripts/blob/master/src/pwsh/Get-HelmPackageACR.ps1)
 - [Update-GitRepositories.ps1](https://github.com/najx/scripts/blob/master/src/pwsh/Update-GitRepositories.ps1)
 
 🤔 Needs help with one of the Powershell script from `src/pwsh` ?
