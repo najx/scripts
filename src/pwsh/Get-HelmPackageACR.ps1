@@ -1,6 +1,6 @@
 <#
   .SYNOPSIS
-    Get list (10 images - can be adjusted line 29) of helm packages stored in one Azure Container Registry
+    Get list (10 images - can be adjusted line 36) of helm packages stored in one Azure Container Registry
 
   .DESCRIPTION
     Get list of helm packages stored in one Azure Container Registry.
