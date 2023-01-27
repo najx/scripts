@@ -60,16 +60,19 @@ def search_file(base_dir, ss):
         print(RED, ss, 'has not been located..', RESET)
 
 if __name__ =='__main__':
+    i = 0
+
     print(BOLD,"Enter the absolute path of the location where the operations are going to take place ",RESET)
-    base_dir = input("[eg: C:/Users/User/Desktop/fileman/ ] : ")
+    base_dir = input("[eg: /home/user/fileman/ (unix like) or C:/Users/User/Desktop/fileman/ (windows like) ] : ")
+
     print()
     print(GREEN,"1.",RESET,"Create Directories")
     print(GREEN,"2.",RESET,"Create Files")
     print(GREEN,"3.",RESET,"Count Files & Directories")
     print(GREEN,"4.",RESET,"Search files")
     print()
+
     op = int(input("Choose an option: "))
-    i = 0
     # Loop until a valid option is chosen or the user runs out of chances
     while (op != 1 and op != 2 and op != 3 and op != 4) and (i < 3):
         print("> ", CYAN, (3-i), RESET, " chances left...")
