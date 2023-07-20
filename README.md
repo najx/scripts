@@ -15,6 +15,8 @@
 
 - [git_pull.sh](https://github.com/najx/scripts/blob/master/src/bash/git_pull.sh)
 - [parse_yaml.sh](https://github.com/najx/scripts/blob/master/src/bash/parse_yaml.sh)
+- [display_tree.sh](https://github.com/najx/scripts/blob/master/src/bash/display_tree.sh)
+- [short_url.sh](https://github.com/najx/scripts/blob/master/src/bash/short_url.sh)
 
 🤔 Want to execute a script from `src/bash` ?
 
@@ -28,6 +30,7 @@ Don't forget to make it executable by typing the following command:
 - [Convert-LowerCase.ps1](https://github.com/najx/scripts/blob/master/src/pwsh/Convert-LowerCase.ps1)
 - [Get-HelmPackageACR.ps1](https://github.com/najx/scripts/blob/master/src/pwsh/Get-HelmPackageACR.ps1)
 - [Update-GitRepositories.ps1](https://github.com/najx/scripts/blob/master/src/pwsh/Update-GitRepositories.ps1)
+- [Write-Tree.ps1](https://github.com/najx/scripts/blob/master/src/pwsh/Write-Tree.ps1)
 
 🤔 Needs help with one of the Powershell script from `src/pwsh` ?
 
