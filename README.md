@@ -17,6 +17,7 @@
 - [parse_yaml.sh](https://github.com/najx/scripts/blob/master/src/bash/parse_yaml.sh)
 - [display_tree.sh](https://github.com/najx/scripts/blob/master/src/bash/display_tree.sh)
 - [short_url.sh](https://github.com/najx/scripts/blob/master/src/bash/short_url.sh)
+- [chat_with_openai.sh](https://github.com/najx/scripts/blob/master/src/bash/chat_with_openai.sh)
 
 🤔 Want to execute a script from `src/bash` ?
 
