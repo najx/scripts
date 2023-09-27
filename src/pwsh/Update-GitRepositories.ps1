@@ -1,10 +1,12 @@
 <#
   .SYNOPSIS
     Pull remote Git repositories locally
+
   .DESCRIPTION
     Pull a remote list of Git repositories
     locally by specifying the path where
     are listed directories
+
   .PARAMETER path
     Mandatory, this parameter specifies the
     path where directories are stored

@@ -1,3 +1,26 @@
+<#
+  .SYNOPSIS
+    Script for traversing a directory and writing file information and contents to an output file.
+
+  .DESCRIPTION
+    This script traverses a specified directory, checks whether the items are files or folders,
+    and writes this information along with the contents of the files to an output file.
+    The script also allows for filtering files based on their extension.
+
+  .PARAMETER path
+    Mandatory, this parameter specifies the path where directories and files are stored.
+    Example: "c:/folder"
+
+  .PARAMETER outputFile
+    Mandatory, this parameter specifies the path of the file where the output will be written.
+    Example: "c:/output.txt"
+
+  .PARAMETER filterExtension
+    Optional, this parameter allows filtering files based on their extension.
+    Default is "*", meaning all files will be included.
+    Example: "txt"
+#>
+
 param (
     [Parameter(Mandatory=$true)]
     [string]$path,
@@ -22,9 +45,6 @@ if (!(Test-Path $outputFile)) {
     Remove-Item -Path $outputFile -Force -Verbose
     New-Item -Path $outputFile -ItemType File -Force
 }
-
-# Display the tree structure using the tree command
-Get-ChildItem -Path .\poc\goload-tester\ -Recurse | Where-Object { $_.FullName -notmatch '\\\.git\\' }
 
 # Get the items in the directory respecting the extension filter
 Get-ChildItem -Path $path -Recurse -Filter "*.$filterExtension" | ForEach-Object {
